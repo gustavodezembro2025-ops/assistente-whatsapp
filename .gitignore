@@ -1,0 +1,16 @@
+# Segredos
+.env
+*.env
+!.env.example
+
+# Dados — mensagens e transcrições nunca entram no repositório
+*.sql.gz
+dumps/
+exports-chat/
+*.ogg
+*.opus
+*.mp3
+
+# Sistema
+.DS_Store
+node_modules/

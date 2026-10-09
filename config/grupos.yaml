@@ -1,0 +1,23 @@
+# Grupos monitorados pelo assistente.
+# Só os grupos listados aqui com ativo: true são processados; o resto é descartado na entrada.
+#
+# jid:      ID do grupo na Evolution (termina em @g.us) — ver docs/fase-1.md, passo 2
+# nome:     nome do grupo no WhatsApp (referência)
+# cliente:  slug do cliente, igual ao nome do arquivo em clientes/ (ex: cab -> clientes/cab.md)
+# tipo:     cliente | interno
+# ativo:    true | false
+
+grupos:
+  - jid: "COLE_O_ID_AQUI@g.us"
+    nome: "Squad - Interno"
+    cliente: null
+    tipo: interno
+    ativo: true
+
+  - jid: "COLE_O_ID_AQUI@g.us"
+    nome: "Nome do grupo do cliente"
+    cliente: slug-do-cliente
+    tipo: cliente
+    ativo: true
+
+  # repita um bloco por grupo de cliente
